@@ -1,2 +1,3 @@
 <?php
-echo ="Halo Github";
+echo "Halo Github";
+?> 
