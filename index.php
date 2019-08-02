@@ -53,28 +53,28 @@ $c = $a + $b;
 <body>
 <?php
 echo"<b>Materi Kedua<b>";
-$a = 40;
+$a = 50;
 $b = 10;
 $c = $a + $b; 
 if ($c <= 10){
   echo '<h1 style="color:cyan">' . $c . '</h1>';
-} elseif ($c <= 10){
-  echo '<h1 style="color:green">' . $c . '</h1>';
-} elseif ($c <=20){
-  echo '<h1 style="color:blue">' . $c . '</h1>';
 } elseif ($c <= 20){
+  echo '<h1 style="color:green">' . $c . '</h1>';
+} elseif ($c <=30){
+  echo '<h1 style="color:blue">' . $c . '</h1>';
+} elseif ($c <= 40){
   echo '<h1 style="color:black">' . $c . '</h1>';  
-} elseif ($c <= 30){
+} elseif ($c <= 50){
   echo '<h1 style="color:yellow">' . $c . '</h1>';
-} elseif ($c <= 30){
+} elseif ($c <= 60){
   echo '<h1 style="color:pink">' . $c . '</h1>';
-} elseif ($c <= 40){
+} elseif ($c <= 70){
   echo '<h1 style="color:red">' . $c . '</h1>';
-} elseif ($c <= 40){
+} elseif ($c <= 80){
   echo '<h1 style="color:DodgerBlue">' . $c . '</h1>'; 
-} elseif ($c <= 50){
+} elseif ($c <= 90){
   echo '<h1 style="color:Salmon">' . $c . '</h1>';
-} elseif ($c <= 50){
+} elseif ($c <= 100){
   echo '<h1 style="color:Sky Blue">' . $c . '</h1>';
 }
 ?>
