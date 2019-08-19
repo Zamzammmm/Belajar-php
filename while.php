@@ -4,7 +4,7 @@ $i = 1;
 while ($i <= 10) {
 echo $i++;
 }
-echo "<br><br>";
+echo "<br><br>"; 
 /* contoh 2 */
 $i = 1;
 while ($i <= 10):
@@ -18,4 +18,5 @@ while ($i <= 6) {
 echo "<h$i>Heading $i</h$i>";
 $i++;
 }
+echo "ini adalah program saya"
 ?>
