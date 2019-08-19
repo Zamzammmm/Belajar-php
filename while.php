@@ -18,5 +18,4 @@ while ($i <= 6) {
 echo "<h$i>Heading $i</h$i>";
 $i++;
 }
-echo "ini adalah program saya"
 ?>
