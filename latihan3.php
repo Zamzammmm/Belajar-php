@@ -6,8 +6,7 @@
 <body>
 <FORM ACTION="proseslatihan3.php" METHOD="POST" NAME="input">
 <b style="margin-left:50px">FORMULIR PENDAFTARAN</b>
-
-<table border="1" style="center; color:Blue">
+<table border="0" style="center; color:Blue">
 <tr>
     <td>NO PENDAFTARAN</td>
     <td>:</td>
@@ -26,13 +25,13 @@
 <tr>
     <td>ALAMAT</td>
     <td>:</td>
-    <td><input type="text"  name="alamat" placeholder="Alamat Anda..."></td>
+     <td><textarea name = "alamat" rows ="5" cols="40"></textarea></td>
 </tr>
 <tr>
 <td>HOBI </td>
 <td>:</td>
 <td> 
-       <input type="checkbox" name="hobi1" value="putsal"checked> Putsal<br>
+       <input type="checkbox" name="hobi1" value="putsal"> Putsal<br>
        <input type="checkbox" name="hobi2" value="coding"> Coding<br>
        <input type="checkbox" name="hobi3" value="fotbool"    > Fotbool<br>
        <input type="checkbox" name="hobi4" value="al-qur'an"    > Al-Qur'an<br>

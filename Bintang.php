@@ -9,7 +9,7 @@
 <body>
 <fieldset>
 <legend>Bintang Piramid</legend>
-<form action="prosesBintang.php" method="post" name="input">
+<form ACTION="prosesBintang.php" METHOD="post" NAME="input">
 <table border=0;>
 <tr>
      <td>Masukan Bintang</td>
